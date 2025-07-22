@@ -15,7 +15,7 @@ public class appinstallthroughPackagenameAndPackageActivity {
         caps.setCapability("platformName", "Android");
         caps.setCapability("deviceName", "Android Device"); //  device name
         caps.setCapability("automationName", "UiAutomator2");
-        caps.setCapability("udid", "YOUR_DEVICE_ID");
+        caps.setCapability("udid", "532bb9fa");
         caps.setCapability("appPackage", "com.darden.mobile.olivegarden");
         caps.setCapability("appActivity", "com.darden.mobile.mapp.MainActivity");
         caps.setCapability("noReset", true); // Keep app state
