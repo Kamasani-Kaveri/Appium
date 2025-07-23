@@ -18,7 +18,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
-public class ecommerceappHandlingObjectsInWebview {
+public class ecommerceappSwitchToWebview {
     public static void main(String[] args) throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
