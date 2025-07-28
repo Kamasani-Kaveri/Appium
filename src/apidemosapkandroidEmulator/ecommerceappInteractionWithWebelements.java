@@ -170,3 +170,4 @@ public class ecommerceappInteractionWithWebelements {
         driver.perform(Arrays.asList(longPress));
     }
 }
+

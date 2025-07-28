@@ -75,8 +75,8 @@ public class ecommerceappGeneralStore {
         System.out.println("Clicked on 'Let's Shop' button.");
 
         //step6: Toast messages
-       /* String toastMessage = driver.findElement(By.xpath("//android.widget.Toast[1]")).getAttribute("name");
-        System.out.println(toastMessage);*/
+         String toastMessage = driver.findElement(By.xpath("//android.widget.Toast[1]")).getAttribute("name");
+         System.out.println(toastMessage);
 
         // Step 7: Scroll to "Jordan 6 Rings" and click its Add to Cart button
         boolean productFound = false;
